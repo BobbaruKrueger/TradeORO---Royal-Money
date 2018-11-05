@@ -1,0 +1,554 @@
+@charset "UTF-8";
+/*--------------------------------------------------------------
+>>>>>> CSSeco Styles(usualy overwrite bootsrap styles :))
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+	#  Imports
+	##  Fonts
+    ##  Bootstrap
+	#  CSSeco Variables
+	#  Overides(bs)
+	#  Helper Classes
+	#  CSSeco Styles
+	## Body
+	## Header
+	## Footer
+	## Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#  Imports 
+##  Fonts
+--------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800");
+@import url("../fonts/fonts.css");
+/*--------------------------------------------------------------
+#  Imports
+##  Bootstrap
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#  CSSeco Variables
+--------------------------------------------------------------*/
+/* BreakPoint */
+/*--------------------------------------------------------------
+#  Overides(bs)
+--------------------------------------------------------------*/
+body {
+  font-family: 'DroidArabicKufi';
+  font-weight: normal;
+  font-style: normal;
+  text-align: right;
+  direction: rtl; }
+  @media screen and (min-width: 768px) {
+    body {
+      background: url("../imgs/bg.jpg") center top no-repeat #05151a; } }
+
+/*--------------------------------------------------------------
+#  Helper Classes
+--------------------------------------------------------------*/
+.table {
+  display: table;
+  width: 100%;
+  height: 100%; }
+  .table .table-cell {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle; }
+
+@keyframes bounce {
+  0% {
+    background-position: right center; }
+  50% {
+    background-position: right top 30px; }
+  100% {
+    background-position: right center; } }
+/*--------------------------------------------------------------
+#  CSSeco Styles
+## Body
+--------------------------------------------------------------*/
+div#site-wrapper {
+  /*--------------------------------------------------------------
+  #  CSSeco Styles
+  ## Header
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  #  CSSeco Styles
+  ## Footer
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  #  CSSeco Styles
+  ## Content
+  --------------------------------------------------------------*/ }
+  @media screen and (max-width: 767px) {
+    div#site-wrapper header#header {
+      max-width: 100%;
+      width: 100%; } }
+  div#site-wrapper header#header .container {
+    max-width: 100%; }
+  div#site-wrapper header#header .headerLog_wrapper {
+    border-bottom: 1px solid rgba(138, 138, 138, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+    z-index: 99; }
+    div#site-wrapper header#header .headerLog_wrapper img.header_logo {
+      margin: 10px 15px 0;
+      max-height: 60px; }
+      @media screen and (min-width: 768px) {
+        div#site-wrapper header#header .headerLog_wrapper img.header_logo {
+          margin: 60px 20px 0;
+          padding-left: 120px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid rgba(138, 138, 138, 0.2); } }
+      @media screen and (min-width: 1200px) {
+        div#site-wrapper header#header .headerLog_wrapper img.header_logo {
+          margin: 60px 0 0; } }
+    @media screen and (min-width: 768px) {
+      div#site-wrapper header#header .headerLog_wrapper {
+        border: medium none;
+        box-shadow: none; } }
+    @media screen and (min-width: 1200px) {
+      div#site-wrapper header#header .headerLog_wrapper {
+        max-width: 1140px;
+        margin: auto;
+        padding-left: 5px;
+        padding-right: 5px; } }
+  div#site-wrapper footer#footer {
+    background-color: #05151a;
+    color: #999;
+    position: relative;
+    width: 100%;
+    padding: 0px 30px; }
+    div#site-wrapper footer#footer a {
+      color: #fff;
+      text-decoration: underline; }
+    div#site-wrapper footer#footer section {
+      padding: 30px 0;
+      color: #999;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: center;
+      position: relative; }
+      div#site-wrapper footer#footer section .wrapper {
+        max-width: 960px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        margin: auto;
+        width: 100%; }
+        div#site-wrapper footer#footer section .wrapper figure {
+          max-width: 336px;
+          height: 34px;
+          background: url("../imgs/footer/icons-mobile.png") center no-repeat;
+          margin: auto auto 30px;
+          background-size: contain; }
+  div#site-wrapper section#section1.subHeader {
+    background: url("../imgs/main-image.jpg") no-repeat center top #f2f2f2;
+    height: 392px;
+    padding: 0 15px;
+    position: relative; }
+    div#site-wrapper section#section1.subHeader .title {
+      padding: 15px 0 0; }
+      @media screen and (min-width: 768px) {
+        div#site-wrapper section#section1.subHeader .title {
+          padding: 35px 0 5px; } }
+      @media screen and (min-width: 1200px) {
+        div#site-wrapper section#section1.subHeader .title {
+          padding: 40px 0 30px; } }
+    div#site-wrapper section#section1.subHeader .wrapper {
+      max-width: 470px;
+      margin: auto;
+      padding-left: 10px;
+      padding-right: 10px; }
+      @media screen and (min-width: 768px) {
+        div#site-wrapper section#section1.subHeader .wrapper {
+          max-width: 768px;
+          margin: 0;
+          padding-left: 5px;
+          padding-right: 5px; } }
+      @media screen and (min-width: 1200px) {
+        div#site-wrapper section#section1.subHeader .wrapper {
+          max-width: 1140px;
+          margin: auto;
+          padding-left: 5px;
+          padding-right: 5px; } }
+    div#site-wrapper section#section1.subHeader h1.mobile {
+      color: #1eafe3;
+      display: inline-block;
+      font-family: 'DroidArabicKufi-Bold';
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px;
+      margin: 0;
+      max-width: none;
+      padding: 0;
+      text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+      width: 100%; }
+    div#site-wrapper section#section1.subHeader p.mobile {
+      color: #000;
+      font-family: 'DroidArabicKufi';
+      font-size: 16px;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 26px;
+      margin: 15px 0 0;
+      padding: 0;
+      width: 100%; }
+    div#site-wrapper section#section1.subHeader h1.desktop {
+      color: #0b1f26;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      margin: 0;
+      max-width: 320px;
+      padding: 0;
+      text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+      width: 100%; }
+      div#site-wrapper section#section1.subHeader h1.desktop strong {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        display: block;
+        color: #1eafe3;
+        text-transform: uppercase;
+        text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15); }
+        div#site-wrapper section#section1.subHeader h1.desktop strong span {
+          color: #0b1f26;
+          font-family: 'DroidArabicKufi-Bold';
+          font-weight: 100; }
+        @media screen and (min-width: 992px) {
+          div#site-wrapper section#section1.subHeader h1.desktop strong {
+            font-size: 36px; } }
+        @media screen and (min-width: 1200px) {
+          div#site-wrapper section#section1.subHeader h1.desktop strong {
+            font-size: 38px; } }
+      @media screen and (min-width: 992px) {
+        div#site-wrapper section#section1.subHeader h1.desktop {
+          font-size: 30px;
+          line-height: 45px;
+          width: 100%;
+          max-width: 525px;
+          padding: 0;
+          margin: 0;
+          font-weight: 500;
+          color: #0b1f26;
+          text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15); } }
+      @media screen and (min-width: 1200px) {
+        div#site-wrapper section#section1.subHeader h1.desktop {
+          font-size: 32px;
+          font-weight: 500;
+          line-height: 45px; } }
+    div#site-wrapper section#section1.subHeader p.desktop {
+      color: #000;
+      font-family: 'DroidArabicKufi';
+      font-size: 18px;
+      line-height: 26px;
+      margin: 30px 0;
+      padding: 0;
+      width: 50%; }
+      @media screen and (min-width: 992px) {
+        div#site-wrapper section#section1.subHeader p.desktop {
+          font-size: 20px;
+          line-height: 30px;
+          width: 50%; } }
+    div#site-wrapper section#section1.subHeader p.list-title {
+      color: #000;
+      font-family: 'DroidArabicKufi';
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 26px;
+      margin: 30px 0;
+      padding: 0;
+      width: 50%; }
+    div#site-wrapper section#section1.subHeader ul.desktop {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      div#site-wrapper section#section1.subHeader ul.desktop li {
+        position: relative;
+        top: 0;
+        width: 100%;
+        max-width: 360px;
+        margin-bottom: 25px;
+        padding: 6px 45px 6px 0;
+        color: #000;
+        font-family: 'DroidArabicKufi';
+        font-size: 14px;
+        line-height: 18px; }
+        div#site-wrapper section#section1.subHeader ul.desktop li::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0px;
+          width: 40px;
+          height: 30px;
+          background-repeat: no-repeat;
+          background-position: center; }
+        div#site-wrapper section#section1.subHeader ul.desktop li.bullet-1::before {
+          background-image: url("../imgs/section1/bullet-1.png"); }
+        div#site-wrapper section#section1.subHeader ul.desktop li.bullet-2::before {
+          background-image: url("../imgs/section1/bullet-2.png"); }
+        div#site-wrapper section#section1.subHeader ul.desktop li.bullet-3::before {
+          background-image: url("../imgs/section1/bullet-3.png"); }
+        div#site-wrapper section#section1.subHeader ul.desktop li.bullet-4::before {
+          background-image: url("../imgs/section1/bullet-4.png"); }
+    @media screen and (min-width: 768px) {
+      div#site-wrapper section#section1.subHeader {
+        background: none;
+        height: auto; } }
+  div#site-wrapper section#section2.formWrapper {
+    background: url("../imgs/section2/form-bg.jpg") no-repeat center #0b1f26;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: auto; }
+    @media screen and (min-width: 768px) {
+      div#site-wrapper section#section2.formWrapper .form-wrap {
+        position: absolute;
+        top: -666px;
+        max-width: 330px;
+        left: 15px;
+        z-index: 9999999; } }
+    @media screen and (min-width: 992px) {
+      div#site-wrapper section#section2.formWrapper .form-wrap {
+        top: -724px; } }
+    div#site-wrapper section#section2.formWrapper .form-wrap form {
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+      position: relative;
+      padding-left: 15px;
+      padding-right: 15px;
+      box-shadow: none; }
+      div#site-wrapper section#section2.formWrapper .form-wrap form::before {
+        max-width: 225px;
+        margin: 0;
+        padding-left: 0;
+        font-size: 16px;
+        width: 100%;
+        box-sizing: border-box;
+        content: 'أنت بحاجة إلى أفضل شركة وساطة!';
+        display: block;
+        height: 70px;
+        padding: 20px 30px 0 20px;
+        background: url("../imgs/section2/arrow-title.png") no-repeat right center;
+        color: #fff;
+        font-family: 'DroidArabicKufi-Bold';
+        font-weight: normal;
+        line-height: 24px;
+        text-transform: uppercase;
+        animation: bounce 1s ease-in-out infinite; }
+      div#site-wrapper section#section2.formWrapper .form-wrap form::after {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: 15px;
+        width: 71px;
+        height: 79px;
+        background: url("../imgs/section2/badge-mobile.png") no-repeat center;
+        background-size: contain; }
+        @media screen and (min-width: 768px) {
+          div#site-wrapper section#section2.formWrapper .form-wrap form::after {
+            display: none; } }
+      div#site-wrapper section#section2.formWrapper .form-wrap form .formEl {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        position: relative; }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input[type="text"],
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input[type="email"],
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input[type="tel"],
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl select {
+          width: 100%;
+          height: 50px;
+          padding-right: 40px;
+          border: 0 none;
+          border-radius: 0;
+          background: #fff;
+          color: #585858;
+          font-family: 'DroidArabicKufi', "Times New Roman", Georgia, serif;
+          font-size: 12px;
+          z-index: 1; }
+          @media screen and (min-width: 768px) {
+            div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input[type="text"],
+            div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input[type="email"],
+            div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input[type="tel"],
+            div#site-wrapper section#section2.formWrapper .form-wrap form .formEl select {
+              height: 40px; } }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.lname, div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.fname {
+          margin-top: 20px; }
+          @media screen and (min-width: 768px) {
+            div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.lname, div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.fname {
+              margin-top: 40px; } }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input.phone-number,
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input.phone-prefix {
+          float: left;
+          width: 100%; }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input.phone-number {
+          border-left: 1px solid #ccc;
+          max-width: 70%; }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input.phone-prefix {
+          padding-right: 14px;
+          width: 30%; }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input.fnameclass {
+          border-left: 1px solid #ccc; }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl input.lnameclass {
+          padding-right: 10px; }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl .agreement input[type=checkbox],
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl .agreement input[type=checkbox] + label {
+          display: inline; }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl .agreement input[type=checkbox] + label {
+          color: #FFF; }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.fname, div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.mail, div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.country, div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.phone {
+          position: relative; }
+          div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.fname::after, div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.mail::after, div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.country::after, div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.phone::after {
+            width: 50px;
+            height: 50px;
+            background-color: transparent;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0; }
+            @media screen and (min-width: 768px) {
+              div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.fname::after, div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.mail::after, div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.country::after, div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.phone::after {
+                height: 40px;
+                width: 40px; } }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.fname::after {
+          background-image: url(../imgs/section2/user.png); }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.mail::after {
+          background-image: url(../imgs/section2/email.png); }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.country::after {
+          background-image: url(../imgs/section2/country.png); }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl.phone::after {
+          background-image: url(../imgs/section2/phone.png); }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl button[type=submit],
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl div#checksubmit {
+          color: #fff;
+          margin-bottom: 20px;
+          padding: 0;
+          height: 50px;
+          border: 0;
+          background: #1eafe3;
+          font-family: 'DroidArabicKufi-Bold', Tahoma, Geneva, sans-serif;
+          font-size: 18px;
+          line-height: 40px;
+          text-align: center;
+          text-transform: uppercase;
+          box-shadow: -5px 0px 10px 5px rgba(0, 0, 0, 0.4);
+          width: 100%; }
+          @media screen and (min-width: 768px) {
+            div#site-wrapper section#section2.formWrapper .form-wrap form .formEl button[type=submit],
+            div#site-wrapper section#section2.formWrapper .form-wrap form .formEl div#checksubmit {
+              color: #003333; } }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl div#checksubmit {
+          display: none;
+          padding-top: 5px;
+          opacity: .5; }
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl .inputerror,
+        div#site-wrapper section#section2.formWrapper .form-wrap form .formEl .agreementerror {
+          color: #CCC; }
+      @media screen and (min-width: 768px) {
+        div#site-wrapper section#section2.formWrapper .form-wrap form {
+          background: #003333; } }
+    div#site-wrapper section#section2.formWrapper .form-wrap .badge {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 95px;
+      height: 90px;
+      padding: 13px 5px 0 24px;
+      background-image: url("../imgs/section2/badge.png");
+      background-repeat: no-repeat;
+      background-position: right top;
+      box-sizing: border-box;
+      color: #090a0a;
+      font-family: 'DroidArabicKufi';
+      font-size: 10px;
+      line-height: 20px;
+      text-align: center;
+      z-index: 99; }
+      div#site-wrapper section#section2.formWrapper .form-wrap .badge span {
+        display: block;
+        font-family: "Times New Roman", serif;
+        font-weight: 400;
+        font-size: 24px; }
+  div#site-wrapper ul.mobile {
+    max-width: 470px;
+    margin: auto;
+    padding: 25px 15px;
+    box-sizing: border-box;
+    list-style: none; }
+    div#site-wrapper ul.mobile li {
+      position: relative;
+      top: 0;
+      width: 100%;
+      max-width: 360px;
+      margin-bottom: 25px;
+      padding: 6px 45px 6px 0;
+      color: #000;
+      font-family: 'DroidArabicKufi';
+      font-size: 14px;
+      line-height: 18px; }
+      div#site-wrapper ul.mobile li::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0px;
+        width: 40px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-position: center; }
+      div#site-wrapper ul.mobile li.bullet-1::before {
+        background-image: url("../imgs/section1/bullet-1.png"); }
+      div#site-wrapper ul.mobile li.bullet-2::before {
+        background-image: url("../imgs/section1/bullet-2.png"); }
+      div#site-wrapper ul.mobile li.bullet-3::before {
+        background-image: url("../imgs/section1/bullet-3.png"); }
+      div#site-wrapper ul.mobile li.bullet-4::before {
+        background-image: url("../imgs/section1/bullet-4.png"); }
+    @media screen and (min-width: 576px) {
+      div#site-wrapper ul.mobile {
+        padding: 25px 0; } }
+  div#site-wrapper section.title {
+    background: #1eafe3;
+    margin: 20px 0 -17px;
+    text-align: center;
+    position: relative; }
+    div#site-wrapper section.title::after {
+      content: '';
+      position: absolute;
+      left: -230px;
+      right: 0;
+      margin: auto;
+      bottom: -150px;
+      width: 533px;
+      height: 969px;
+      background: url("../imgs/section1/figure.png") center bottom no-repeat;
+      z-index: -1; }
+      @media screen and (min-width: 1101px) {
+        div#site-wrapper section.title::after {
+          left: -100px; } }
+    div#site-wrapper section.title .wrapper {
+      padding-left: 5px;
+      padding-right: 5px;
+      position: relative;
+      width: 100%;
+      max-width: 1140px;
+      margin: auto; }
+      div#site-wrapper section.title .wrapper h3 {
+        margin: 0 auto;
+        padding: 26px 0 36px;
+        color: #fff;
+        font-size: 28px;
+        font-weight: normal;
+        line-height: 36px; }
+        div#site-wrapper section.title .wrapper h3 strong {
+          color: #0b1f26;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 800;
+          text-transform: uppercase; }
